@@ -1,0 +1,18 @@
+# Ignore ambientes virtuais
+venv/
+.env
+
+# Ignore arquivos temporários
+__pycache__/
+*.pyc
+
+# Ignore configurações locais
+.DS_Store
+*.sqlite3
+*.log
+
+# Ignore qualquer pasta chamada "frontend"
+frontend/
+
+# Ignore testes locais
+tests/
